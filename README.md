@@ -1,6 +1,9 @@
 # fun-server-chat
 Fun server chat is a minecraft plugin which gives funny reply on random worlds good for survival server..
 
+Minecraft server support
+- 1.13,1.14,1.15,1.16,1.17,1.17.1
+
 Words list
 - hello
 - come here
