@@ -1,0 +1,423 @@
+{
+  "plugin.dependencies": "",
+  "plugin.author": "fickletcell",
+  "plugin.description": "fun chat plugin",
+  "plugin.version": "beta1.11",
+  "open-tab": 1,
+  "plugin-components": [
+    {
+      "children": [{
+        "=": "eff14931e00daf05213ef71baa4f2fea",
+        "parameters": [
+          {"=": "6d7e3ffc65ab709a11c739519d54a472"},
+          {
+            "=": "expr-new-string",
+            "parameters": ["&2yo yo plugin is enabled!!!!"]
+          }
+        ]
+      }],
+      "=": "comp-plugin-enable"
+    },
+    {
+      "children": [{
+        "children": [
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[server]&2HI...Don't say hello i dont know you..may be owner??"]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["hello"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[server]&2Don't you know server dont have legs..you come here are take me"]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["come here"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[server]&2Hmm some accounts are going to be empty XD.."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["i am rich"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[server]&2Green Green I feel cool 20TPS to all..."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["make big farm"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[server]&2Don't you dare make that mobs gives stress to me.."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["big mob farm"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[server]&2RIP i will remember in my Harddisk..."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["my dog died"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2Server is online thats why you in XD.."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["who is online"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2ya ya do /vote i will be the next pm The server..."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["how to vote"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2naaaaaa I can do better XD..."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["Op sword"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2OOO NOOO what happend i am all good"]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["wtf"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2Its not funny i am dieing here.."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["jk"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2WHo asked XD..."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["i am back"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2aaaaw lots of love for me.. but i hate you .."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["lol"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {
+            "children": [{
+              "=": "eff14931e00daf05213ef71baa4f2fea",
+              "parameters": [
+                {"=": "4931d2e910c800590357ce198cc1a607"},
+                {
+                  "=": "expr-new-string",
+                  "parameters": ["&c[chat]=>&2But i can fuck I have your IP XD.."]
+                }
+              ]
+            }],
+            "=": "stat-if-statement",
+            "parameters": [
+              {
+                "=": "expr-is-equal",
+                "parameters": [
+                  {"=": "5ac0439e56d7869a9070b92e84fca982"},
+                  {
+                    "=": "expr-new-string",
+                    "parameters": ["fuck off"]
+                  }
+                ]
+              },
+              "normal"
+            ]
+          },
+          {"=": "stat-else-statement"}
+        ],
+        "=": "stat-schedule-task",
+        "parameters": [
+          "sync",
+          "run once",
+          {
+            "=": "expr-number",
+            "parameters": ["20"]
+          }
+        ]
+      }],
+      "=": "comp-event-listener",
+      "parameters": [
+        "AsyncPlayerChatEvent",
+        "NORMAL"
+      ]
+    },
+    {
+      "children": [{
+        "=": "eff14931e00daf05213ef71baa4f2fea",
+        "parameters": [
+          {"=": "6d7e3ffc65ab709a11c739519d54a472"},
+          {
+            "=": "expr-new-string",
+            "parameters": ["&2yo yo plugin isdisabled!!!!"]
+          }
+        ]
+      }],
+      "=": "comp-plugin-disable"
+    }
+  ],
+  "plugin.website": "",
+  "plugin.soft-dependencies": "",
+  "plugin.name": "funserverchat"
+}
