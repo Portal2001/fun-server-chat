@@ -1,0 +1,8 @@
+name: "funserverchat"
+version: "beta1.11"
+main: "vb.$funserverchat.PluginMain"
+api-version: 1.13
+author: "fickletcell"
+description: "fun chat plugin"
+commands:
+permissions:
